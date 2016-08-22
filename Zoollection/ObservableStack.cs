@@ -2,11 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 
 namespace Zoollection
 {
+    [DebuggerDisplay("Count = {Count}")]
     [ComVisible(false)]
+    [Serializable]
     public class ObservableStack<T> : ICollection, IReadOnlyCollection<T>, INotifyCollectionChanged
     {
         public event NotifyCollectionChangedEventHandler CollectionChanged;

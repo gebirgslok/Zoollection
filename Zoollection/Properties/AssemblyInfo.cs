@@ -7,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Zoollection")]
-[assembly: AssemblyDescription("Additional collections ('a zoo of collections') that supplement the collections provided by .NET")]
+[assembly: AssemblyDescription("Additional collections ('a zoo of collections') that extend the collections provided by .NET")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Zoollection")]

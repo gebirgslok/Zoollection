@@ -10,6 +10,7 @@ namespace Zoollection
 {
     [ComVisible(false)]
     [DebuggerDisplay("Count = {Count}")]
+    [Serializable]
     public class ConcurrentObservableQueue<T> : IProducerConsumerCollection<T>, 
         IReadOnlyCollection<T>, INotifyCollectionChanged
     {

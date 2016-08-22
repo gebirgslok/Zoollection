@@ -1,7 +1,7 @@
 # Zoollection
-Additional collections ('a zoo of collections') that supplement the collections provided by .NET
+Additional collections ('a zoo of collections') that extend the collections provided by .NET
 
-## Supported collections
+## Featured collections
 collection | details  
 --- | --- 
 ObservableStack | Stack that implements INotifyCollectionChanged. Stack<T> can be replaced by ObservableStack<T> without any additional changes in code.
@@ -13,3 +13,4 @@ ConcurrentObservableQueue | A thread-safe, observable queue. Technically Concurr
 - ObservableDictionary
 - ConcurrentObservableBag
 - ConcurrentObservableDictionary
+- SynchronizedObservableCollection
