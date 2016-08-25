@@ -1,6 +1,9 @@
 # Zoollection
 Additional collections ('a zoo of collections') that extend the collections provided by .NET
 
+## Change log
+1.0.1.0 - implemented IEnumerator.GetEnumerator() on ConcurrentObservableQueue
+
 ## Featured collections
 collection | details  
 --- | --- 

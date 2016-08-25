@@ -131,7 +131,7 @@ namespace Zoollection
 
         IEnumerator IEnumerable.GetEnumerator()
         {
-            throw new NotImplementedException();
+            return GetEnumerator();
         }
 
         void ICollection.CopyTo(Array array, int index)
