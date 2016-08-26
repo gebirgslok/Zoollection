@@ -3,6 +3,7 @@ Additional collections ('a zoo of collections') that extend the collections prov
 
 ## Change log
 1.0.1.0 - implemented IEnumerator.GetEnumerator() on ConcurrentObservableQueue
+1.0.2.0 - TryDequeue now specifies the index of the dequeued item.
 
 ## Featured collections
 collection | details  

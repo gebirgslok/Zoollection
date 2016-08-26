@@ -67,7 +67,7 @@ namespace Zoollection
             var success = _concurrentQueue.TryDequeue(out item);
             if (success)
             {
-                var eventArgs = new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new List<T>{ item });
+                var eventArgs = new NotifyCollectionChangedEventArgs(NotifyCollectionChangedAction.Remove, new List<T>{ item }, 0);
                 RaiseCollectionChanged(eventArgs);
             }
             return success;
